@@ -1,0 +1,14 @@
+<template>
+    <lightning-layout>
+        <lightning-layout-item class="slds-align-middle slds-size_1-of-3">
+            <lightning-combobox
+                    label="Select an Account"
+                    placeholder="Choose an Account"
+                    class="slds-align-middle"
+                    options={options}
+                    value={selectedAccount}
+                    onchange={handleChange}>
+            </lightning-combobox>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>
